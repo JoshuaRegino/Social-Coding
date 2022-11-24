@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Project-4" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "Project-4" ]
 
 permissions:
   contents: read
@@ -39,5 +39,5 @@ jobs:
        pip install requests
        pip install pytest
        pip install pytest-cov
-       pytest SocialCoding.py
+       pytest SocialCoding 2.0.py
         

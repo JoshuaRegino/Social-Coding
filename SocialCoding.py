@@ -1,3 +1,4 @@
+pip3 install requests
 import requests
 
 def get_ip():

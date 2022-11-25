@@ -15,7 +15,7 @@ def get_location():
         "COUNTRY": response.get("country_name"),
         "CAPITAL": response.get("country_capital"),
         "TIME ZONE": response.get("timezone"),
-        "CURRENCY": response.get("currency_name"
+        "CURRENCY": response.get("currency_name")
     }
     return location_data
 
